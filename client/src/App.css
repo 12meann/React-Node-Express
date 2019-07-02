@@ -1,0 +1,43 @@
+.container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* Optional style for fetched images */
+.images {
+  display: flex;
+  max-width: 80%;
+  margin: 2% auto;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.single-photo {
+  max-width: 300px;
+  align-self: auto;
+  margin: 1% 2px;
+  flex-grow: 1;
+  vertical-align: middle;
+}
+.posts {
+  margin: 40px auto;
+}
+.file-label {
+  margin: 0 auto;
+}
+.file-name {
+  width: 300px;
+}
+.is-hidden {
+  display: none;
+}
+.notification {
+  text-align: left;
+}
+.progress {
+  width: 43%;
+  margin: 0 auto;
+}
+.field .button {
+  width: 42%;
+  margin: 20px auto;
+}
