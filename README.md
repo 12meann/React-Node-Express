@@ -11,3 +11,11 @@ Feel free to clone the repository and run on the main directory and client direc
 ```javascript
 npm install
 ```
+
+On the main directory, just type
+
+```javascript
+npm run dev
+```
+
+to run both the client and backend server.
