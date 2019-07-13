@@ -15,7 +15,7 @@ const unsplash = new Unsplash({
 const app = express();
 app.use(fileUpload());
 
-//infinite scroll
+//infinite scroll unsplash
 app.get("/api/photos", (req, res) => {
   unsplash.photos
     // api/photos?start=1
